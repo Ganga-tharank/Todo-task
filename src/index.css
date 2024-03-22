@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, black, yellow);
+    height: 140px;
+    width: 100%;
+    margin: 0;
+}
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.todo-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.status{
+    cursor: pointer;
+}
+.completed{
+    color: green;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    
+}
+button{
+    background-color: teal;
+    color: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+ select{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+    top: 50%;
+}
